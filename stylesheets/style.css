@@ -12,3 +12,8 @@ h1 {
 .iconTest {
     background-color: yellow;
 }
+
+.carouselImage {
+    height: 300px;
+    width: 200px;
+}
