@@ -20,7 +20,6 @@ h1 {
 
 .carouselImage {
     height: 300px;
-    width: 200px;
 }
 
 .footerTest {
@@ -66,4 +65,9 @@ h1 {
 
   .fa-telegram {
       background: #0396DE;
+  }
+
+  .formMessage {
+      height: auto;
+      width: 100%;
   }
