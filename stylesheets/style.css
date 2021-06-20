@@ -7,7 +7,12 @@ h1 {
     background-color: turquoise;
     display: flex;
     justify-content: space-between;
+    color: white;
 }
+
+.navbarTest a {
+        color: white;
+    }
 
 .iconTest {
     background-color: yellow;
@@ -17,3 +22,48 @@ h1 {
     height: 300px;
     width: 200px;
 }
+
+.footerTest {
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerTest a {
+    color: white;
+}
+
+.footerContact {
+    color: white
+}
+
+.fa {
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+  }
+
+  .fa:hover {
+    text-decoration: none;
+    opacity: 100%;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+  }
+
+  .fa-instagram {
+    background-image: linear-gradient(to bottom left, #803AB3, #E60B18, #EFDA55);
+  }
+
+  .fa-telegram {
+      background: #0396DE;
+  }
