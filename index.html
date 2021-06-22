@@ -36,6 +36,7 @@
         contact
       </a>
     </nav>
+    <div class="container">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="1500">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -62,8 +63,10 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    </div>
     <br>
     <br>
+    <div class="container">
     <div id="accordion">
       <div class="card">
         <div class="card-header" id="headingOne">
@@ -108,8 +111,10 @@
         </div>
       </div>
     </div>
+    </div>
     <br>
     <br>
+    <div class="container">
     <form>
       <div class="form-row">
         <div class="form-group col-md-6">
@@ -140,7 +145,6 @@
           <label for="inputState">State</label>
           <select class="form-control">
             <option value="" class="hiddenvalue"></option>
-            <option value="I do not live in the United States">I do not live in the United States</option>
             <option value="AL">Alabama</option>
             <option value="AK">Alaska</option>
             <option value="AZ">Arizona</option>
@@ -191,6 +195,7 @@
             <option value="WV">West Virginia</option>
             <option value="WI">Wisconsin</option>
             <option value="WY">Wyoming</option>
+            <option value="I do not live in the United States">I do not live in the United States</option>
           </select>
         </div>
         <div class="form-group col-md-2">
@@ -201,25 +206,47 @@
       <br>
       <label for="subject">Subject</label>
       <br>
-      <textarea class="formMessage" name="subject" placeholder="Write something..." required></textarea>
+      <textarea class="formMessage" name="subject" placeholder="We look forward to communicating with you." required></textarea>
       <br>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    </div>
     <br>
     <br>
     <footer class="footer footerTest">
-      <a link href="#">
-        top
-      </a>
-      <div class="footerContact">
-        <h>Connect With Us</h>
-        <br>
-        <br>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="fa fa-telegram"></a>
-    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-4 footerColumn footerCredit">
+            <h>Credit For;</h>
+            <br>
+            <br>
+            <text>Images: Exeter yearbook club,</text>
+            <br>
+            <text>Created by: Weston Taylor</text>
+            <br>
+            <text>&copy; Copyright 2021</text>
+          </div>
+          <div class="col-4 footerColumn footerMenu">
+            <h>Menu</h>
+            <br>
+            <br>
+            <a href="#" id="home">Home</a>
+            <br>
+            <a href="#" id="about">About</a>
+            <br>
+            <a href="#" id="contact">Contact</a>
+          </div>
+          <div class="col-4 footerColumn footerContact">
+            <h>Connect With Us</h>
+            <br>
+            <br>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-telegram"></a>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->

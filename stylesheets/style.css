@@ -27,14 +27,21 @@ h1 {
     background-color: black;
     display: flex;
     justify-content: space-between;
-}
-
-.footerTest a {
     color: white;
 }
 
-.footerContact {
-    color: white
+.footerTest a {
+    text-decoration: none;
+}
+
+.footerColumn {
+    border: solid white 1px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.footerTest a:visited {
+    color: white;
 }
 
 .fa {
