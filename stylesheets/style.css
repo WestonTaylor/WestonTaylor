@@ -1,21 +1,24 @@
 h1 {
-    color: yellow;
+    color: black;
 }
 
 .navbarTest {
     box-sizing: border-box;
-    background-color: turquoise;
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: black;
 }
 
 .navbarTest a {
-        color: white;
+        color: black;
     }
 
-.iconTest {
-    background-color: yellow;
+.carousel-control-next {
+    color: black;
+}
+
+.carousel-control-prev {
+    color: black;
 }
 
 .carouselImage {
@@ -24,10 +27,9 @@ h1 {
 
 .footerTest {
     box-sizing: border-box;
-    background-color: black;
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: black;
 }
 
 .footerTest a {
@@ -35,13 +37,9 @@ h1 {
 }
 
 .footerColumn {
-    border: solid white 1px;
+    border: solid #5d5c61 3px;
     text-align: center;
     padding: 10px 0px 10px 0px;
-}
-
-.footerTest a:visited {
-    color: white;
 }
 
 .fa {
@@ -128,6 +126,83 @@ h1 {
   }
 
   .importantLink a:hover {
-      color: rgb(0, 255, 255);
-      background-color: lawngreen;
+      color: white;
+      background-color: #557A95;
   }
+
+  .importantLink a:visited {
+      color: black;
+  }
+
+  body {
+      background-color: #557A95;
+  }
+
+  .navbarTest {
+      background-color: #7395AE;
+  }
+
+  .footerTest {
+    background-color: #7395AE;
+  }
+
+  .card {
+      background-color: #938E94;
+      border: solid #5d5c61 2px;
+      color: black;
+  }
+
+  .form-control {
+      background-color: #938E94;
+      border: solid #5d5c61 3px;
+      color: black;
+  }
+
+  .formMessage {
+    background-color: #938E94;
+    border: solid #5d5c61 3px;
+}
+
+.card::placeholder {
+    color: black;
+}
+
+.form-control::placeholder {
+    color: black;
+}
+
+.formMessage::placeholder {
+    color: black;
+}
+
+.card:focus {
+    background-color: #c5b5a7;
+    border: solid #5d5c61 3px;
+}
+
+.form-control:focus {
+    background-color: #c5b5a7;
+    border: solid #5d5c61 3px;
+}
+
+.formMessage:focus {
+    background-color: #c5b5a7;
+    border: solid #5d5c61 3px;
+}
+
+textarea:focus-visible {
+    outline-offset: none;
+    outline: none
+}
+
+.btn-link {
+    color: black;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23F7F700' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23F7F700' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
