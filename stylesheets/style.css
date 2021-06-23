@@ -79,15 +79,25 @@ h1 {
       width: 100%;
   }
 
-    #customWidthImage {
-        width: 440px;
-    }
-
     @media only screen and (max-width: 493px) {
         #customWidthImage {
             display: none;
         }
+
+        .smallScreenImageToLink {
+            visibility: visible;
+        }
       }
+
+      @media only screen and (min-width: 494px) {
+        #customWidthImage {
+            width: 440px;
+        }
+    
+        .smallScreenImageToLink {
+            visibility: hidden;
+        }
+    }
 
   @media only screen and (min-width: 576px) {
     #customWidthImage {
@@ -111,4 +121,13 @@ h1 {
     #customWidthImage {
         width: 1080px;
     }
+  }
+
+  .importantLink a {
+      text-decoration: underline;
+  }
+
+  .importantLink a:hover {
+      color: rgb(0, 255, 255);
+      background-color: lawngreen;
   }
