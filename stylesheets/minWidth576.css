@@ -1,5 +1,9 @@
-@media only screen and (min-width: 575px) {
-    h1 {
-        color: violet;
+@media only screen and (min-width: 576px) {
+    .displayOnSmallOnly {
+        display: none;
+    }
+
+    #customWidthImage {
+        width: 475px;
     }
   }

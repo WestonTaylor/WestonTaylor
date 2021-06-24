@@ -1,3 +1,295 @@
-h1 {
-    color: yellow;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
+
+@media only screen and (max-width: 493px) {
+    #customWidthImage {
+        display: none;
+    }
+  }
+
+@media only screen and (min-width: 494px) {
+    #customWidthImage {
+        width: 440px;
+    }
+
+    .smallScreenImageToLink {
+        visibility: hidden;
+    }
 }
+
+@media only screen and (max-width:575px) {
+.displayOnMediumAndBigger {
+    display: none;
+    }
+}
+
+.displayOnSmallOnly {
+    visibility: visible;
+}
+
+.displayOnLargeAndBigger {
+    display: none;
+}
+
+body {
+    background-color: #557A95;
+}
+
+h, h1, h2, h3, h4, h5, h6, label{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+p, text, a, span, .btn, .form-control::placeholder {
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-size: 16px;
+}
+
+.navbarTest {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    background-color: #7395AE;
+}
+
+.navbarTest a {
+    color: black;
+    }
+
+.containerBottomBorder {
+        border-bottom: solid #004dc0 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
+.carouselImage {
+    height: 300px;
+}
+
+.carousel-indicators li{
+    background-color: #00FFF2;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300FFF2' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  }
+  
+  .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300FFF2' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  }
+
+.card {
+    background-color: #938E94;
+    border: solid #5d5c61 2px;
+    color: black;
+}
+
+.card::placeholder {
+    color: black;
+  }
+
+.card:focus {
+    background-color: #c5b5a7;
+    border: solid #5d5c61 3px;
+}
+
+.btn-link {
+    color: black;
+  }
+  
+  .btn-link:focus {
+    border: solid 1px black;
+  }
+  
+  .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+.form-control {
+    background-color: #938E94;
+    border: solid #5d5c61 3px;
+    color: black;
+}
+
+.form-control::placeholder {
+    color: black;
+  }
+
+  .form-control:focus {
+    background-color: #c5b5a7;
+    border: solid #5d5c61 3px;
+  }
+
+  .formMessage {
+    height: auto;
+    width: 100%;
+    background-color: #938E94;
+    border: solid #5d5c61 3px;
+}
+
+.formMessage::placeholder {
+  color: black;
+}
+
+.formMessage:focus {
+  background-color: #c5b5a7;
+  border: solid #5d5c61 3px;
+}
+
+textarea:focus-visible {
+  outline-offset: none;
+  outline: none
+}
+
+.footerTest {
+    background-color: #7395AE;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 10px;
+}
+
+.footerTest a {
+    text-decoration: none;
+}
+
+.footerColumn {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-right: solid #004dc0 1px;
+}
+
+.footerSocial {
+    border-right: none;
+}
+
+.fa {
+    width: 50px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    opacity: 70%;
+  }
+
+  .fa:hover {
+    text-decoration: none;
+    opacity: 100%;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+  }
+
+  .fa-instagram {
+    background-image: linear-gradient(to bottom left, #803AB3, #E60B18, #EFDA55);
+  }
+
+  .fa-telegram {
+      background: #0396DE;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(./minWidth576.css);
+@import url(./minWidth768.css);
+@import url(./minWidth992.css);
+@import url(./minWidth1200.css);
