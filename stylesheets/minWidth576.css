@@ -1,2 +1,9 @@
 @media only screen and (min-width: 576px) {
+    .displayOnSmallOnly {
+        display: none;
+    }
+
+    #customWidthImage {
+        width: 475px;
+    }
   }
