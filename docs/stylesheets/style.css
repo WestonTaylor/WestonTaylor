@@ -17,9 +17,6 @@
     }
 }
 
-
-
-
 @media only screen and (max-width: 575px) {
     .displayOver575 {
     display: none !important;
