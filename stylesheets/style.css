@@ -1,16 +1,30 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
+
+h, h1, h2, h3, h4, h5, h6, label{
+    font-family: 'Montserrat', sans-serif;
     color: black;
+}
+
+p, text, a, span, .btn, .form-control::placeholder {
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+a:hover {
+    color: white;
 }
 
 .navbarTest {
     box-sizing: border-box;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     color: black;
 }
 
 .navbarTest a {
-        color: black;
+    color: black;
     }
 
 .carousel-control-next {
@@ -30,6 +44,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     color: black;
+    padding: 10px;
 }
 
 .footerTest a {
@@ -37,18 +52,22 @@ h1 {
 }
 
 .footerColumn {
-    border: solid #5d5c61 3px;
     text-align: center;
     padding: 10px 0px 10px 0px;
+    border-right: solid #004dc0 1px;
+}
+
+.footerSocial {
+    border-right: none;
 }
 
 .fa {
-    width: 30px;
-    padding: 5px;
+    width: 50px;
+    padding: 5px 0px 5px 0px;
     text-align: center;
     color: white;
     text-decoration: none;
-    opacity: 80%;
+    opacity: 70%;
   }
 
   .fa:hover {
@@ -200,9 +219,117 @@ textarea:focus-visible {
 }
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23F7F700' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff9b06' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
 .carousel-control-next-icon {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23F7F700' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff9b06' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
+
+.btn-link:focus {
+    border: solid 1px black;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.containerBottomBorder {
+    border-bottom: solid #004dc0 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(./minWidth576.css);
+@import url(./minWidth768.css);
+@import url(./minWidth992.css);
+@import url(./minWidth1200.css);
