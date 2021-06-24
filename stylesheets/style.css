@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
-@import url(./minWidth576.css);
-@import url(./minWidth768.css);
-@import url(./minWidth992.css);
-@import url(./minWidth1200.css);
 
 @media only screen and (max-width: 493px) {
     #customWidthImage {
@@ -21,14 +17,17 @@
     }
 }
 
-@media only screen and (max-width:575px) {
-.displayOnMediumAndBigger {
-    display: none;
-    }
-}
 
-.displayOnSmallOnly {
-    visibility: visible;
+
+
+@media only screen and (max-width: 575px) {
+    .displayOver575 {
+    display: none !important;
+    }
+
+    .displayUnder576 {
+        display: block;
+    }
 }
 
 .displayOnLargeAndBigger {
@@ -203,97 +202,38 @@ textarea:focus-visible {
       background: #0396DE;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@import url(./minWidth576.css);
-@import url(./minWidth768.css);
-@import url(./minWidth992.css);
-@import url(./minWidth1200.css);
+@media only screen and (min-width: 576px) {
+    .displayUnder576 {
+        display: none;
+    }
+
+    #customWidthImage {
+        width: 475px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    #customWidthImage {
+        width: 650px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .displayOnMediumOnly {
+        display: none;
+    }
+
+    .displayOnLargeAndBigger {
+        display: block;
+    }
+
+    #customWidthImage {
+        width: 900px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    #customWidthImage {
+        width: 1080px;
+    }
+  }
